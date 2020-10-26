@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238">
+    <LinearLayout
+        android:id="@+id/linLayItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_dash_dark"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txtHistoryItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="15dp"
+            android:text="Kachaa Aloo Tadka"
+            android:textSize="23sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtHistoryPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Rs.60"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+    </LinearLayout>
+</RelativeLayout>

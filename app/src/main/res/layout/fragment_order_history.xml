@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238">
+    <TextView
+        android:id="@+id/headHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Your previous orders are listed below :"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#7986cb"/>
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/headHistory"
+        android:text="You haven't ordered anything yet :( "
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#d50000"/>
+    <RelativeLayout
+        android:id="@+id/lineHistory"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/headHistory"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#d50000"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRestaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineHistory"/>
+    <RelativeLayout
+        android:id="@+id/progressLayoutHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#263238">
+        <ProgressBar
+            android:id="@+id/progressBarHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

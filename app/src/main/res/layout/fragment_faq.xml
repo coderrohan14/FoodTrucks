@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#263238">
+    <TextView
+        android:id="@+id/txtQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.) What is the average delivery time of the app?"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#d50000"/>
+    <TextView
+        android:id="@+id/txtAnsQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ans.) We deliver food in an average of 20-25 minutes and maybe even faster.If you face any delivery issues, you can contact to our customer care services.Thanks."
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/txtQ1"
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
+    <RelativeLayout
+        android:id="@+id/lineQ1"
+        android:layout_below="@+id/txtAnsQ1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="3dp"
+        android:background="#b71c1c"/>
+    <TextView
+        android:id="@+id/txtQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.) I want to collaborate with you by joining my restaurant with your app so please guide me for the same."
+        android:textStyle="bold"
+        android:layout_below="@+id/lineQ1"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#d50000"/>
+    <TextView
+        android:id="@+id/txtAnsQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ans.) You are welcome to collaborate with us for more information please contact our Help and Support team :)"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtQ2"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
+    <RelativeLayout
+        android:id="@+id/lineQ2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtAnsQ2"
+        android:layout_marginTop="5dp"
+        android:background="#b71c1c"/>
+    <TextView
+        android:id="@+id/txtQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.) How long will it take for your app to cover my region also?"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/lineQ2"
+        android:textSize="23sp"
+        android:textColor="#d50000"/>
+    <TextView
+        android:id="@+id/txtAnsQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ans.) We are trying our best to cover as much regions as possible but again, that's a matter of time and we assure you that will be delivering you very soon :)"
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/txtQ3"
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
+    <RelativeLayout
+        android:id="@+id/lineQ3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtAnsQ3"
+        android:layout_marginTop="5dp"
+        android:background="#b71c1c"/>
+    <TextView
+        android:id="@+id/txtQ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q.) How can I view my previous orders as I want to order the last ordered items again?"
+        android:textStyle="bold"
+        android:layout_below="@+id/lineQ3"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#d50000"/>
+    <TextView
+        android:id="@+id/txtAnsQ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQ4"
+        android:text="Ans.) For viewing your orders, you can easily open your navigation drawer by clicking on the hamburger icon appearing on the top left corner of your screen and click on the Order History menu item."
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
+    <RelativeLayout
+        android:id="@+id/lineQ4"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtAnsQ4"
+        android:layout_marginTop="5dp"
+        android:background="#b71c1c"/>
+    <TextView
+        android:id="@+id/txtQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineQ4"
+        android:text="Q.) What's the procedure to change the password for my account?"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textSize="23sp"
+        android:textColor="#d50000"/>
+    <TextView
+        android:id="@+id/txtAnsQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQ5"
+        android:text="Ans.) For changing your password, kindly go to the login page and click on the forgot password option and enter your mobile number and email Id further, you will receive an email on you email Id with an OTP. On the next page enter the OTP you have received along with the new password.If you want to change the password more than once within 24 hours, then you will have to use the same OTP that you have received previously."
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="23sp"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
+</ScrollView>

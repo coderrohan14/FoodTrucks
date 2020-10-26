@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="8dp"
+    android:background="#b0bec5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:background="#b0bec5">
+        <TextView
+            android:id="@+id/txtCartListItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Gheese Cordita Taco"
+            android:textStyle="bold"
+            android:textColor="#4527a0"
+            android:textSize="23sp"
+            android:drawableLeft="@mipmap/ic_dash_bullet" />
+        <TextView
+            android:id="@+id/txtCartListItemPrice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Rs. 220"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#00695c"
+            android:layout_margin="13dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home Page"
+            android:icon="@mipmap/ic_home"/>
+        <item
+            android:id="@+id/favourites"
+            android:title="Favorites"
+            android:icon="@mipmap/ic_favourites"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@mipmap/ic_profile"/>
+        <item
+            android:id="@+id/OrderHistory"
+            android:title="Order History"
+            android:icon="@mipmap/ic_order_history"/>
+        <item
+            android:id="@+id/faq"
+            android:title="FAQ"
+            android:icon="@mipmap/ic_faq"/>
+        <item
+            android:id="@+id/logOut"
+            android:title="Log Out"
+            android:icon="@mipmap/ic_exit_final"/>
+    </group>
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.activity.ForgotPasswordActivity"
+    android:background="#263238">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/resetToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetToolbar"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:text="Enter the previously sent OTP :"
+        android:textSize="26sp"
+        android:textColor="#2196f3"/>
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textStyle="bold"
+        android:hint="OTP(4 characters)"
+        android:textSize="24sp"
+        android:textColorHint="#ffffff"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etOtp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="New Password(Min. 4 characters)"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/etConfirmNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNewPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="ConfirmPassword"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etConfirmNewPassword"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="#e65100"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

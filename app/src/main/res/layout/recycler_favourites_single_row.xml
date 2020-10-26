@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#b0bec5"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="6dp">
+    <LinearLayout
+        android:id="@+id/favLinLay"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#b0bec5"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgFavRestaurantImage"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtFavRestaurantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Restaurant Name"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtFavRestaurantPrice"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textColor="#558b2f"
+                android:textStyle="bold"
+                android:text="Rs. 280/person"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_margin="6dp"
+                android:id="@+id/imgFavHeartEmpty"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/ic_heart_filled"/>
+
+            <TextView
+                android:id="@+id/txtFavRating"
+                android:layout_width="51dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/imgFavHeartEmpty"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="4.5"
+                android:textColor="#fdd835"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
